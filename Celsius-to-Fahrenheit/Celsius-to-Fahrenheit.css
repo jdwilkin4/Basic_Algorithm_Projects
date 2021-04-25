@@ -1,0 +1,43 @@
+/* CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.title, .sub-title {
+   
+    font-family: 'Limelight', cursive;
+}
+
+.title {
+    margin: 15px 10px 10px;
+}
+
+.sub-title {
+    margin-bottom: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 40%;
+    padding: 15px;
+    margin: auto;
+}
+
+label {
+    display: block;
+}
+
+input[type=number]{
+    width: 20%;
+}
+
+.fa-fire{
+    color: red;
+}
