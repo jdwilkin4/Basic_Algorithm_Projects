@@ -17,14 +17,16 @@
 
 <body>
     <h1 class="title">Celsius to Fahrenheit</h1>
-    <h2 class="sub-title">Weather Converter</h2>
 
     <div class="card">
         <label for="number">Type in a number between -90 and 57</label>
-        <input type="number" value="" name="degrees" id="number" min="-90" max="57">
-        <button id="convert">Convert</button>
-        <button id="reset" type="reset">Reset</button>
-        <div id="result"></div>
+        <div class="input-container">
+            <input type="number" value="" name="degrees" id="number" min="-90" max="57">
+            <button class="btn" id="convert">Convert</button>
+            <button class="btn" id="reset" type="reset">Reset</button>
+        </div>
+
+        <div class="result-div" id="result"></div>
     </div>
 
 
