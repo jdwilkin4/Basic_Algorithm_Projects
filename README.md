@@ -5,3 +5,6 @@ These are 16 projects that accompany the basic algorithm challenges in the [free
 Project 1: Celsius to Fahrenheit Weather Converter [Live example]()  
 
 Project 2: Reverse It! [Live example]()
+
+Project 3: Factorialize! [Live example]()
+
