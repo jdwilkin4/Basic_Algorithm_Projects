@@ -9,3 +9,6 @@
 ## JavaScript Join Method
 [MDN Docs Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
+## JavaScript Reduce Method
+[MDN Docs Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
