@@ -1,4 +1,4 @@
-// brute force solution using for loop
+// brute force solution using a for loop
 const reverseString = (str) => {
   
   let reversedStr = "";
@@ -34,6 +34,21 @@ const reverseString = (str) => {
 
 //using built in JavaScript reverse method with chaining 
 const reverseString = (str) => str.split("").reverse().join("");
+
+//using the split and reduce methods
+function reverseString(str) {
+  // result [ 'h', 'e', 'l', 'l', 'o' ]
+  let splitStr = str.split('')
+
+  // result olleh
+  let newWord = splitStr.reduce((acc,curr)=>curr + acc)
+
+
+  return newWord;
+}
+
+reverseString("hello");
+
 
 
 
