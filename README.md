@@ -8,3 +8,8 @@ Project 2: Reverse It! [Live example]()
 
 Project 3: Factorialize! [Live example]()
 
+Project 4: Longest Word [Live example]()
+
+Project 5: Finding the largest number [Live example]()
+
+Project 6: Confirm the ending [Live example]()
