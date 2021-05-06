@@ -6,18 +6,19 @@ const reset = document.getElementById('reset');
 
 
 convertBtn.addEventListener("click", () => {
-    let fahrenheit = Math.floor((inputValue.value * 9 / 5) + 32);
-    const conversionString = `<p>${inputValue.value} degrees Celsius is</p>
-    <p>${fahrenheit} degrees Fahrenheit </p>`
+    let userInput = inputValue.value
+    let fahrenheit = Math.floor((userInput * 9 / 5) + 32);
+    const conversionString = `<p>${userInput} degrees Celsius is</p> <p>${fahrenheit} degrees Fahrenheit </p>`
+
 
     //checking for invalid user input
-    if (inputValue.value > 57 || inputValue.value < -90 || inputValue.value === '') {
+    if (userInput > 57 || userInput < -90 || userInput === '') {
         result.innerHTML = `Invalid input. Try again.`
-    } else if (inputValue.value >= 30 && inputValue.value <= 57) {
+    } else if (userInput >= 30 && userInput <= 57) {
         result.innerHTML = `<p class="result-text">Ohh..that's HOT <i class="fas fa-fire"></i></p>${conversionString}`
-    } else if (inputValue.value >= 20 && inputValue.value <= 29) {
+    } else if (userInput >= 20 && userInput <= 29) {
         result.innerHTML = `<p class="result-text">Not to bad<i class="far fa-sun"></i></p> ${conversionString}`
-    } else if (inputValue.value >= 0 && inputValue.value <= 19) {
+    } else if (userInput >= 0 && userInput <= 19) {
         result.innerHTML = `<p class="result-text">It's a little chilly <i class="fas fa-snowflake"></i></p> ${conversionString}`
     } else {
         result.innerHTML = `<p class="result-text">Wow, that's cold! <i class="fas fa-icicles"></i></p>${conversionString}`
@@ -27,6 +28,6 @@ convertBtn.addEventListener("click", () => {
 
 
 reset.addEventListener('click', () => {
-    result.innerHTML = '';
+    result.innerHTML = '<i id="sun" class="far fa-sun"></i>';
     inputValue.value = '';
 })

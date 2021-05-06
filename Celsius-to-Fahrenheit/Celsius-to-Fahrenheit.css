@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: rgb(78, 78, 238);
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif; 
@@ -13,21 +14,26 @@ body {
 
 .title {
     background-color: #000000;
-    margin: 15px auto 10px;
+    padding: 20px 0;
+    margin: 40px auto 30px;
     max-width: 40%;
     font-family: 'Limelight', cursive;
 }
 
+#message {
+    margin: 20px 0 30px;
+}
 
 .card {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.701);
     max-width: 300px;
+    height: 250px;
     padding: 15px;
     margin: auto;
 }
 
 .input-container {
-    margin: 10px 0;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -36,6 +42,10 @@ body {
 
 input[type=number]{
     width: 20%;
+}
+
+#sun {
+    font-size: 3rem;
 }
 
 .result-div {
