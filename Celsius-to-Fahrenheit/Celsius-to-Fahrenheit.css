@@ -6,14 +6,17 @@
 }
 
 body {
-    background-color: rgb(78, 78, 238);
-    color: white;
+    background-color: #552888;
     text-align: center;
     font-family: 'Open Sans', sans-serif; 
 }
 
+.title, .card {
+    border-radius: 15px;
+    background-color:#ffffff;
+}
+
 .title {
-    background-color: #000000;
     padding: 20px 0;
     margin: 40px auto 30px;
     max-width: 40%;
@@ -25,7 +28,6 @@ body {
 }
 
 .card {
-    background-color: rgba(0, 0, 0, 0.701);
     max-width: 300px;
     height: 250px;
     padding: 15px;
@@ -39,12 +41,11 @@ body {
 }
 
 
-
 input[type=number]{
     width: 20%;
 }
 
-#sun {
+#fire {
     font-size: 3rem;
 }
 
@@ -62,7 +63,7 @@ input[type=number]{
 }
 
 .fa-fire {
-    color: red;
+    color: #ff0000;
 }
 
 .fa-sun {

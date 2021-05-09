@@ -3,9 +3,7 @@ const convertBtn = document.getElementById('convert');
 const result = document.getElementById('result');
 const reset = document.getElementById('reset');
 
-
-
-convertBtn.addEventListener("click", () => {
+const converter = () => {
     let userInput = inputValue.value
     let fahrenheit = Math.floor((userInput * 9 / 5) + 32);
     const conversionString = `<p>${userInput} degrees Celsius is</p> <p>${fahrenheit} degrees Fahrenheit </p>`
@@ -23,11 +21,26 @@ convertBtn.addEventListener("click", () => {
     } else {
         result.innerHTML = `<p class="result-text">Wow, that's cold! <i class="fas fa-icicles"></i></p>${conversionString}`
     }
+}
 
-});
+//when a user clicks the convert button the converter function is executed
+convertBtn.addEventListener("click", converter)
 
+//when the user hits enter the converter function is executed
+inputValue.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        converter(e)
+    }
+})
+
+//if the user hits enter without an input
+document.body.addEventListener('keydown', (e) => {
+    if (e.key === "Enter" && inputValue.value === '') {
+        result.innerHTML = 'Please provide an input.'
+    }
+})
 
 reset.addEventListener('click', () => {
-    result.innerHTML = '<i id="sun" class="far fa-sun"></i>';
+    result.innerHTML = '<i id="fire" class="fas fa-fire"></i>';
     inputValue.value = '';
 })
