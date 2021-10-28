@@ -4,6 +4,8 @@ These are 16 projects that accompany the basic algorithm challenges in the [free
 
 Project 1: Celsius to Fahrenheit Weather Converter [Live example](https://codepen.io/jessica-wilkins/full/LYWVbbW)  
 
+<img width="460" alt="Screen Shot 2021-10-27 at 11 59 20 PM" src="https://user-images.githubusercontent.com/67210629/139203438-5414612f-1392-4ee6-bcc6-25cc6adfbd30.png">
+
 Project 2: Reverse It! [Live example]()
 
 Project 3: Factorialize! [Live example]()
