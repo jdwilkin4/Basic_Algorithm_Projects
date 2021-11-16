@@ -1,6 +1,4 @@
-# 16 Basic Algorithm Projects
-
-These are 16 projects that accompany the basic algorithm challenges in the [freeCodeCamp JavaScript curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting). I plan to write an article in the FCC News publication. 
+# 16 Basic Algorithm Projects from the freeCodeCamp JavaScript curriculum
 
 Project 1: Celsius to Fahrenheit Weather Converter [Live example](https://codepen.io/jessica-wilkins/full/LYWVbbW)  
 
